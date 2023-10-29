@@ -1,0 +1,60 @@
+body {
+  background-image: url('https://source.unsplash.com/1920x1080/?weather');
+  background-size: cover;
+  background-position: center;
+  color: white;
+  font-family: Arial, sans-serif;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.weather-app {
+  background-color: rgba(0, 0, 0, 0.7);
+  padding: 20px;
+  border-radius: 10px;
+  text-align: center;
+  width: 80%;
+  max-width: 400px;
+  overflow: hidden;
+}
+
+input[type='text'] {
+  width: 100%;
+  padding: 10px;
+  border: 2x solid black;
+  text-align: center;
+  font-size: 16px;
+  border-radius: 10px;
+  margin-bottom: 10px;
+  box-sizing: border-box; 
+}
+
+button {
+  width: 100%;
+  padding: 10px 20px;
+  font-size: 16px;
+  background-color: #4caf50;
+  color: white;
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
+  /* transition: background-color 0.3s; */
+  transition: background-color 0.3s, transform 0.3s;
+  transition-delay: 0.4s;
+  /* animation: slideIn 0.5s ease; */
+}
+
+button:hover {
+  background-color: #45a049;
+  transform: scale(1.05);
+}
+
+.weather-info {
+  margin-top: 20px;
+}
