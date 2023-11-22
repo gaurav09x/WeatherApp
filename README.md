@@ -1,1 +1,1 @@
-# A weather App developed using react and openweather API.
+# Weather App developed using react and openweather API.
